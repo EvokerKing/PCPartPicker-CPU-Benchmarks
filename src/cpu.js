@@ -1,12 +1,27 @@
 const scores = {
+    "AMD A10-9700": "3530",
+    "AMD A4-6300": "1428",
     "AMD A6-9500": "1861",
+    "AMD A8-6600K": "2983",
     "AMD Athlon 200GE": "4109",
     "AMD Athlon 3000G (14nm)": "4483",
+    "AMD Athlon II X2 240": "994",
+    "AMD Athlon X4 760K": "2939",
+    "AMD Athlon X4 870K": "3392",
+    "AMD Athlon X4 950": "3568",
+    "AMD FX-4300": "2977",
+    "AMD FX-6120": "3857",
     "AMD FX-6300": "4177",
+    "AMD FX-6350": "4523",
+    "AMD FX-8300": "5290",
+    "AMD FX-8320": "5434",
     "AMD FX-8350": "5997",
+    "AMD FX-9370": "6048",
     "AMD FX-9590": "6749",
+    "AMD Opteron 6344": "6069",
     "AMD Ryzen 3 1200 (12nm)": "6314",
     "AMD Ryzen 3 1200 (14nm)": "6314",
+    "AMD Ryzen 3 1300X": "6960",
     "AMD Ryzen 3 2200G": "6775",
     "AMD Ryzen 3 3100": "11650",
     "AMD Ryzen 3 3200G": "7190",
@@ -32,6 +47,7 @@ const scores = {
     "AMD Ryzen 5 5600": "21505",
     "AMD Ryzen 5 5600G": "19834",
     "AMD Ryzen 5 5600X": "21970",
+    "AMD Ryzen 5 7600": "27935",
     "AMD Ryzen 5 7600X": "28265",
     "AMD Ryzen 7 1700": "14838",
     "AMD Ryzen 7 1700X": "15685",
@@ -45,13 +61,19 @@ const scores = {
     "AMD Ryzen 7 5700X": "26622",
     "AMD Ryzen 7 5800X": "28142",
     "AMD Ryzen 7 5800X3D": "27567",
+    "AMD Ryzen 7 7700": "35636",
+    "AMD Ryzen 7 7700X": "36558",
+    "AMD Ryzen 7 7800X3D": "35044",
     "AMD Ryzen 9 3900X": "32764",
     "AMD Ryzen 9 3900XT": "32951",
     "AMD Ryzen 9 3950X": "39034",
     "AMD Ryzen 9 5900X": "39315",
     "AMD Ryzen 9 5950X": "45852",
+    "AMD Ryzen 9 7900": "49304",
     "AMD Ryzen 9 7900X": "51198",
+    "AMD Ryzen 9 7900X3D": "51342",
     "AMD Ryzen 9 7950X": "64572",
+    "AMD Ryzen 9 7950X3D": "63932",
     "AMD Threadripper 1900X": "16999",
     "AMD Threadripper 1920X": "22773",
     "AMD Threadripper 1950X": "27951",
@@ -60,11 +82,21 @@ const scores = {
     "AMD Threadripper 3960X": "54803",
     "AMD Threadripper 3970X": "63548",
     "AMD Threadripper 3990X": "81282",
+    "Intel Celeron 420": "235",
     "Intel Celeron E1400": "671",
+    "Intel Celeron G3900": "2169",
+    "Intel Celeron G3930": "2257",
+    "Intel Celeron G440": "425",
+    "Intel Celeron G4900": "2426",
     "Intel Celeron G5900": "2672",
+    "Intel Celeron G5905": "2819",
     "Intel Celeron G5925": "2721",
     "Intel Celeron G6900": "4333",
+    "Intel Core 2 Duo E6400": "756",
     "Intel Core 2 Duo E8400": "1171",
+    "Intel Core 2 Duo E8500": "1242",
+    "Intel Core 2 Quad Q9300": "1950",
+    "Intel Core 2 Quad Q9550": "2321",
     "Intel Core i3-10100": "8767",
     "Intel Core i3-10100F": "8848",
     "Intel Core i3-10105": "8831",
@@ -72,12 +104,16 @@ const scores = {
     "Intel Core i3-10300": "9153",
     "Intel Core i3-12100": "14362",
     "Intel Core i3-12100F": "14379",
+    "Intel Core i3-13100": "15320",
+    "Intel Core i3-13100F": "15203",
     "Intel Core i3-2100": "1828",
     "Intel Core i3-6100": "4153",
     "Intel Core i3-7100": "4341",
     "Intel Core i3-8100": "6165",
+    "Intel Core i3-8350K": "6958",
     "Intel Core i3-9100": "6636",
     "Intel Core i3-9100F": "6772",
+    "Intel Core i3-9350KF": "7578",
     "Intel Core i5-10400": "12307",
     "Intel Core i5-10400F": "12391",
     "Intel Core i5-10500": "12955",
@@ -96,11 +132,20 @@ const scores = {
     "Intel Core i5-12600": "21182",
     "Intel Core i5-12600K": "27677",
     "Intel Core i5-12600KF": "27233",
+    "Intel Core i5-13400": "25937",
+    "Intel Core i5-13400F": "25944",
+    "Intel Core i5-13500": "32881",
+    "Intel Core i5-13600K": "38491",
+    "Intel Core i5-13600KF": "38352",
     "Intel Core i5-2400": "3849",
+    "Intel Core i5-2500": "4110",
     "Intel Core i5-2500K": "4107",
+    "Intel Core i5-3330": "4084",
     "Intel Core i5-3470": "4668",
     "Intel Core i5-3570": "4905",
     "Intel Core i5-3570K": "4941",
+    "Intel Core i5-4440": "4745",
+    "Intel Core i5-4440S": "4394",
     "Intel Core i5-4460": "4844",
     "Intel Core i5-4570": "5206",
     "Intel Core i5-4590": "5350",
@@ -109,18 +154,23 @@ const scores = {
     "Intel Core i5-4690": "5591",
     "Intel Core i5-4690K": "5638",
     "Intel Core i5-6400": "5161",
+    "Intel Core i5-6402P": "5440",
     "Intel Core i5-6500": "5657",
     "Intel Core i5-6600": "6097",
     "Intel Core i5-6600K": "6329",
     "Intel Core i5-7400": "5507",
+    "Intel Core i5-7400T": "4770",
     "Intel Core i5-7500": "6063",
     "Intel Core i5-7600": "6580",
     "Intel Core i5-7600K": "6857",
     "Intel Core i5-8400": "9240",
     "Intel Core i5-8500": "9586",
+    "Intel Core i5-8600": "9943",
     "Intel Core i5-8600K": "10257",
     "Intel Core i5-9400": "9480",
     "Intel Core i5-9400F": "9543",
+    "Intel Core i5-9500": "9801",
+    "Intel Core i5-9500F": "10286",
     "Intel Core i5-9600K": "10774",
     "Intel Core i5-9600KF": "10803",
     "Intel Core i7-10700": "16809",
@@ -135,6 +185,10 @@ const scores = {
     "Intel Core i7-12700F": "31518",
     "Intel Core i7-12700K": "34614",
     "Intel Core i7-12700KF": "34381",
+    "Intel Core i7-13700": "39204",
+    "Intel Core i7-13700F": "42301",
+    "Intel Core i7-13700K": "47047",
+    "Intel Core i7-13700KF": "46762",
     "Intel Core i7-2600": "5348",
     "Intel Core i7-2600K": "5491",
     "Intel Core i7-3770": "6397",
@@ -174,11 +228,18 @@ const scores = {
     "Intel Core i9-12900K": "41463",
     "Intel Core i9-12900KF": "41502",
     "Intel Core i9-12900KS": "44781",
+    "Intel Core i9-13900": "49545",
     "Intel Core i9-13900K": "54433",
+    "Intel Core i9-13900KF": "59582",
+    "Intel Core i9-13900KS": "62556",
     "Intel Core i9-7960X": "27068",
     "Intel Core i9-9900K": "18636",
     "Intel Core i9-9900KF": "18599",
     "Intel Core i9-9900KS": "19557",
+    "Intel Pentium E2200": "715",
+    "Intel Pentium G3260": "2068",
+    "Intel Pentium G4400": "2603",
+    "Intel Pentium G640": "1306",
     "Intel Pentium Gold G6400": "4137",
     "Intel Pentium Gold G6405": "4294",
     "Intel Pentium Gold G7400": "6797",
@@ -190,28 +251,26 @@ const scores = {
     "Intel Xeon E5-4650": "8630"
 };
 
-const changeProductName = (mutationList, observer) => {
-    mutationList.forEach( (mutation) => {
-        mutation.addedNodes.forEach( (node) => {
-            if(node.nodeName === 'TR') {
-                const name = node.getElementsByTagName('p');
-                const nameText = name[0].innerText;
-
-                if (nameText in scores) {
-                    name[0].innerText = `${nameText} - ${scores[nameText]}`
-                } else {
-                    scores[nameText] = ""
-                }
-            }
-        })
-    })
-}
-
 const startObserver = () => {
     const elem = document.querySelector('.productList--detailed');
     const config = {attributes: true, childList: true, subtree: true};
     const MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
-    const observer = new MutationObserver(changeProductName);
+    var observer = new MutationObserver((mList, observer) => {
+        mList.forEach( (mutation) => {
+            mutation.addedNodes.forEach( (node) => {
+                if(node.nodeName === 'TR') {
+                    const name = node.getElementsByTagName('p');
+                    const nameText = name[0].innerText;
+
+                    if (nameText in scores) {
+                        name[0].innerText = `${nameText} - ${scores[nameText]} pts`
+                    } else {
+                        scores[nameText] = ""
+                    }
+                }
+            })
+        })
+    });
     observer.observe(elem, config);
 }
 
