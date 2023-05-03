@@ -12,6 +12,11 @@
 			"run_at": "document_end",
 			"matches": ["https://pcpartpicker.com/products/cpu/*"],
 			"js": ["./cpu.js"]
+		},
+		{
+			"run_at": "document_end",
+			"matches": ["https://pcpartpicker.com/product/*"],
+			"js": ["./page.js"]
 		}
 	]
 }
