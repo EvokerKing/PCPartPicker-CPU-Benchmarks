@@ -391,7 +391,6 @@ if (category === "CPU") {
 	while (!found) {
 		if (!scores[title]) {
 			title = title.slice(0, -1)
-			console.log(title)
 		} else {
 			document.querySelector('h1.pageTitle').innerText += ` - ${scores[title]} pts`
 			found = true
